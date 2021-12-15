@@ -1,0 +1,14 @@
+file_format: "1"
+id: levinson
+name: Levinson
+type: shield
+url: https://keeb.io/products/levinson-lets-split-w-led-backlight
+requires: [pro_micro]
+exposes: [i2c_oled]
+features:
+  - keys
+  - display
+  - encoder
+siblings:
+  - levinson_left
+  - levinson_right
